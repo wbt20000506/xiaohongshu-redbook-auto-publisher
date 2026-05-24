@@ -1,0 +1,4 @@
+node_modules/
+.browser_data/
+*.png
+.DS_Store
