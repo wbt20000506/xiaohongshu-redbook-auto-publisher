@@ -1,0 +1,129 @@
+{
+  "styles": [
+    {
+      "id": "cream-page",
+      "name": "奶白书页",
+      "description": "知识分享、教程、笔记（默认风格）",
+      "size": { "width": 1080, "height": 1440 },
+      "colors": {
+        "background": "#f5f0eb",
+        "text": "#1a1a1a",
+        "textSecondary": "#888888",
+        "accent": "#1a1a1a",
+        "highlight": "rgba(255,183,77,0.35)"
+      },
+      "typography": {
+        "titleFont": "'Noto Serif SC', Georgia, serif",
+        "bodyFont": "'Noto Sans SC', sans-serif",
+        "titleSize": 64,
+        "bodySize": 38,
+        "lineHeight": 1.85
+      },
+      "layout": {
+        "padding": 80,
+        "cardRadius": 0,
+        "shadow": "none"
+      }
+    },
+    {
+      "id": "dark-tech",
+      "name": "深色科技",
+      "description": "GitHub Trending、AI 工具、技术排名",
+      "size": { "width": 1080, "height": 1440 },
+      "colors": {
+        "background": "#0f172a",
+        "text": "#e2e8f0",
+        "textSecondary": "#64748b",
+        "accent": "#38bdf8",
+        "highlight": "rgba(56,189,248,0.25)"
+      },
+      "typography": {
+        "titleFont": "'JetBrains Mono', 'SF Mono', monospace",
+        "bodyFont": "'Inter', 'Noto Sans SC', sans-serif",
+        "titleSize": 60,
+        "bodySize": 36,
+        "lineHeight": 1.75
+      },
+      "layout": {
+        "padding": 72,
+        "cardRadius": 0,
+        "shadow": "none"
+      }
+    },
+    {
+      "id": "apple-minimal",
+      "name": "苹果极简",
+      "description": "产品发布、正式公告",
+      "size": { "width": 1080, "height": 1440 },
+      "colors": {
+        "background": "#ffffff",
+        "text": "#1d1d1f",
+        "textSecondary": "#86868b",
+        "accent": "#0071e3",
+        "highlight": "rgba(0,113,227,0.12)"
+      },
+      "typography": {
+        "titleFont": "'SF Pro Display', -apple-system, sans-serif",
+        "bodyFont": "'SF Pro Text', -apple-system, sans-serif",
+        "titleSize": 62,
+        "bodySize": 38,
+        "lineHeight": 1.75
+      },
+      "layout": {
+        "padding": 88,
+        "cardRadius": 0,
+        "shadow": "none"
+      }
+    },
+    {
+      "id": "pastel",
+      "name": "柔和卡片",
+      "description": "生活方式、轻松话题",
+      "size": { "width": 1080, "height": 1440 },
+      "colors": {
+        "background": "#fef8f1",
+        "text": "#2a2340",
+        "textSecondary": "#5b5470",
+        "accent": "#f48b5c",
+        "highlight": "rgba(244,139,92,0.25)"
+      },
+      "typography": {
+        "titleFont": "'Playfair Display', 'Noto Serif SC', Georgia, serif",
+        "bodyFont": "'Noto Sans SC', sans-serif",
+        "titleSize": 60,
+        "bodySize": 38,
+        "lineHeight": 1.85
+      },
+      "layout": {
+        "padding": 80,
+        "cardRadius": 0,
+        "shadow": "none"
+      }
+    },
+    {
+      "id": "magazine",
+      "name": "杂志风",
+      "description": "长文分析、行业报告",
+      "size": { "width": 1080, "height": 1440 },
+      "colors": {
+        "background": "#f3eee2",
+        "text": "#1f1c17",
+        "textSecondary": "#6e6a5d",
+        "accent": "#b85a3a",
+        "highlight": "rgba(184,90,58,0.15)"
+      },
+      "typography": {
+        "titleFont": "'Playfair Display', 'Iowan Old Style', Georgia, serif",
+        "bodyFont": "'Noto Sans SC', sans-serif",
+        "titleSize": 66,
+        "bodySize": 36,
+        "lineHeight": 1.9
+      },
+      "layout": {
+        "padding": 72,
+        "cardRadius": 0,
+        "shadow": "none"
+      }
+    }
+  ]
+}
