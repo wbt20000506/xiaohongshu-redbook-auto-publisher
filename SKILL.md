@@ -111,4 +111,3 @@ node scripts/generate-image.js \
 ## 技能资源
 
 - **渲染脚本**: `scripts/generate-image.js`
-- **文案写作指南**: `references/copywriting-guide.md`（写文案前必读）
