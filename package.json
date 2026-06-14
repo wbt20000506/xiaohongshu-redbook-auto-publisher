@@ -1,12 +1,12 @@
 {
-  "name": "customxhsskill",
+  "name": "xhs-card-generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "小红书高清卡片图片生成工具",
+  "main": "scripts/generate-image.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["xiaohongshu", "card", "image", "generator"],
   "author": "",
   "license": "ISC",
   "dependencies": {
