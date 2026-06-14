@@ -471,24 +471,33 @@ async function run() {
         console.log(`  [${i + 1}/${cards.length}] ${filePath}`);
     }
 
-    // 保存 copy.md
-    const copyContent = `# 小红书文案
-
-## 标题
-
-${options.title}
-
-## 正文
-
-${cards.join('\n\n---\n\n')}
-
-## 风格
-
-${chosenStyle.name} (${chosenStyle.id}) — ${chosenStyle.desc}
-
-## 标签
-
-`;
+    // 保存 copy.md（文案模板，待 AI 填入正式文案）
+    const copyContent = [
+        '# 小红书文案',
+        '',
+        '## 标题选项',
+        '',
+        `1. ${options.title}`,
+        '2. ',
+        '3. ',
+        '',
+        '## 正文',
+        '',
+        '（待填写发帖正文，与卡片内容独立）',
+        '',
+        '## 标签',
+        '',
+        '（待填写 15-20 个标签）',
+        '',
+        '---',
+        '',
+        '## 卡片信息',
+        '',
+        `- **使用风格**: ${chosenStyle.name} (${chosenStyle.id})`,
+        `- **风格说明**: ${chosenStyle.desc}`,
+        `- **卡片页数**: ${cards.length}`,
+        '',
+    ].join('\n');
     fs.writeFileSync(path.join(outputDir, 'copy.md'), copyContent, 'utf-8');
 
     await browser.close();
